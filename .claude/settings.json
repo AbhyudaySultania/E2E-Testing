@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx playwright test *)",
+      "Bash(npm run test:setup)",
+      "Bash(npm run test:regression)",
+      "Bash(npm run test:regression:*)",
+      "Bash(npm run test:commit-check)",
+      "Bash(npm run test:regression:heal)",
+      "Bash(npm run test:heal)",
+      "Bash(npm run test:heal:apply)",
+      "Bash(npm run test:heal:verify)",
+      "Bash(npm run test:heal:ground-truth)",
+      "Bash(npm run test:heal:rollback)",
+      "Bash(npm run test:heal:notify)",
+      "Bash(node scripts/run-heal*.mjs)",
+      "Bash(node scripts/heal/*.mjs)",
+      "Bash(git diff *)",
+      "Bash(git status)",
+      "Bash(git log *)"
+    ],
+    "deny": [
+      "Bash(git push *)",
+      "Bash(git reset --hard *)",
+      "Bash(rm -rf *)"
+    ]
+  }
+}

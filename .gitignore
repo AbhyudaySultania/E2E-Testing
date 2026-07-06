@@ -1,0 +1,20 @@
+
+# OS / IDE
+.DS_Store
+**/.DS_Store
+.claude/settings.local.json
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+midscene_run/
+docs/heal-sessions/current-session.md
+docs/heal-sessions/heal-session.json
+
+# rx-pad auth secrets
+.env
+.auth/

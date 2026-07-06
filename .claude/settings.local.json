@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/abhyudaysultania/tatva/ai-testing-poc/.claude/skills/heal-regression)",
+      "Bash(mkdir -p /Users/abhyudaysultania/tatva/ai-testing-poc/.claude/skills/generate-regression)",
+      "Bash(cp /Users/abhyudaysultania/tatva/ai-testing-poc/docs/skills/heal-regression/SKILL.md /Users/abhyudaysultania/tatva/ai-testing-poc/.claude/skills/heal-regression/SKILL.md)",
+      "Bash(cp /Users/abhyudaysultania/tatva/ai-testing-poc/docs/skills/generate-regression/SKILL.md /Users/abhyudaysultania/tatva/ai-testing-poc/.claude/skills/generate-regression/SKILL.md)",
+      "Bash(cp /Users/abhyudaysultania/tatva/ai-testing-poc/docs/skills/generate-regression/templates.md /Users/abhyudaysultania/tatva/ai-testing-poc/.claude/skills/generate-regression/templates.md)"
+    ]
+  }
+}
