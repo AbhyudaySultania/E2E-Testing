@@ -1,4 +1,4 @@
-# ai-testing-poc — rx-pad E2E Regression
+# ai-testing rx-pad E2E Regression
 
 Playwright + TypeScript regression suite for **rx-pad** (Pm-Doctor-Portal). Tests open a real browser against **UAT** or **localhost**, walk in via three entry paths, fill prescription modules, end the visit, and assert **API payloads + print view**.
 
